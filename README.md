@@ -1,4 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/1AC7_bmM)
+
 # Assignment 1 - Landing Page + Git
 
 ## Selamat Datang
@@ -79,13 +80,13 @@ Struktur awal yang sudah saya siapkan untuk kalian:
 
 Berikut bobot penilaian yang akan saya gunakan. Tujuannya supaya kalian tahu di bagian mana harus fokus dan bagaimana saya menilai hasil kerja kalian secara objektif.
 
-| No  | Kriteria                                       | Bobot    |
-| --- | ---------------------------------------------- | -------- |
-| 1   | Penggunaan HTML Semantic yang tepat            | 30%      |
-| 2   | Efektivitas CSS untuk layout dan typography    | 30%      |
-| 3   | Keterbacaan dan kerapihan kode                 | 20%      |
-| 4   | Kualitas commit dan pesan commit di Git        | 20%      |
-|     | **Total**                                      | **100%** |
+| No  | Kriteria                                    | Bobot    |
+| --- | ------------------------------------------- | -------- |
+| 1   | Penggunaan HTML Semantic yang tepat         | 30%      |
+| 2   | Efektivitas CSS untuk layout dan typography | 30%      |
+| 3   | Keterbacaan dan kerapihan kode              | 20%      |
+| 4   | Kualitas commit dan pesan commit di Git     | 20%      |
+|     | **Total**                                   | **100%** |
 
 Penjelasan singkat dari masing-masing kriteria:
 
