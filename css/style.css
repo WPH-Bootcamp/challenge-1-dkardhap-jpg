@@ -1,1 +1,151 @@
-/* code here */
+/* ==========================================================================
+   1. GLOBAL RESET & BASE STYLES (Universal & Element Selector)
+   ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Memudahkan pengaturan padding & border */
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fcf8f2; /* Warna krem hangat nuansa kafe */
+  color: #333333; /* Warna teks utama abu-abu gelap */
+  line-height: 1.6;
+  padding: 0;
+}
+
+/* ==========================================================================
+   2. LAYOUT & CONTAINER (Element & Class Selector)
+   ========================================================================== */
+/* Membatasi lebar konten utama agar tidak terlalu melebar dan rapi di tengah */
+main {
+  max-width: 750px;
+  margin: 30px auto; /* Jarak atas-bawah 30px, kanan-kiri otomatis di tengah */
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(74, 44, 17, 0.08); /* Bayangan soft dengan tone cokelat */
+}
+
+/* Jarak antar section di dalam main */
+section {
+  margin-bottom: 35px;
+}
+
+/* ==========================================================================
+   3. HEADER / HERO SECTION (.hero)
+   ========================================================================== */
+.hero {
+  background-color: #4a2c11; /* Warna cokelat tua khas kopi */
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.9; /* Membuat teks deskripsi sedikit lebih soft */
+}
+
+/* ==========================================================================
+   4. SECTION TYPOGRAPHY & ELEMENTS
+   ========================================================================== */
+h2 {
+  color: #4a2c11;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #dfd3c3; /* Garis dekoratif bawah judul */
+  padding-bottom: 5px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+/* Span Selector untuk class highlight */
+.highlight {
+  background-color: #f5e6ca;
+  color: #4a2c11;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* ==========================================================================
+   5. LISTS STYLING (.coffee-list & .brew)
+   ========================================================================== */
+/* Mengatur list agar menjorok ke dalam dengan rapi */
+.coffee-list ul,
+.brew ol {
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+/* Memberikan jarak antar item list agar tidak terlalu rapat */
+.coffee-list li,
+.brew li {
+  margin-bottom: 8px;
+}
+
+/* ==========================================================================
+   6. GALLERY SECTION (.gallery)
+   ========================================================================== */
+.gallery img {
+  max-width: 100%; /* Menjaga gambar responsif menyesuaikan lebar container */
+  height: auto;
+  border-radius: 8px;
+  border: 4px solid #dfd3c3; /* Efek bingkai foto aesthetic */
+  margin-top: 10px;
+  display: block;
+}
+
+/* ==========================================================================
+   7. LINK SECTION (.learn-more) WITH PSEUDO-CLASS
+   ========================================================================== */
+.learn-more a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #8b5a2b;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid #8b5a2b;
+  transition: all 0.3s ease; /* Transisi halus saat di-hover */
+}
+
+/* Pseudo-class :hover ketika mouse berada di atas link */
+.learn-more a:hover {
+  color: #4a2c11;
+  border-bottom-color: #4a2c11;
+  padding-left: 5px; /* Efek bergeser sedikit ke kanan saat di-hover */
+}
+
+/* ==========================================================================
+   8. FOOTER SECTION
+   ========================================================================== */
+footer {
+  background-color: #2b1808; /* Cokelat yang lebih gelap untuk penutup */
+  color: #dfd3c3;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+
+footer h3 {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+footer p {
+  font-size: 0.9rem;
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.8;
+}
