@@ -149,3 +149,50 @@ footer p {
   margin: 0 auto;
   opacity: 0.8;
 }
+
+/* ==========================================================================
+   TAMBAHAN GLOBAL & NAVBAR STYLES
+   ========================================================================== */
+html {
+  scroll-behavior: smooth; /* Membuat efek scroll halus saat menu diklik */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo di kiri, menu di kanan */
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto 35px auto; /* Jarak bawah ke judul h1 */
+  padding: 10px 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15); /* Garis batas tipis transparan */
+}
+
+.nav-logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #f5e6ca; /* Warna krem hangat */
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none; /* Menghapus bullet points list */
+  gap: 20px; /* Jarak antar menu */
+}
+
+/* Mengatur style link teks khusus di dalam navbar */
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Pseudo-class :hover khusus link navbar */
+.nav-links a:hover {
+  color: #f5e6ca;
+  border-bottom-color: #f5e6ca; /* Muncul garis bawah krem saat di-hover */
+}
